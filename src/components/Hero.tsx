@@ -34,17 +34,17 @@ export default function Hero() {
 
           {/* Animated headline — line-by-line stagger */}
           <h1 className="text-display text-5xl sm:text-6xl md:text-7xl lg:text-[88px] text-[var(--color-ink)]">
-            <span className="block overflow-hidden">
+            <span className="block overflow-hidden pb-[0.18em] -mb-[0.06em]">
               <motion.span variants={heroLine} className="inline-block">
                 Outdated pricing
               </motion.span>
             </span>
-            <span className="block overflow-hidden">
+            <span className="block overflow-hidden pb-[0.18em] -mb-[0.06em]">
               <motion.span variants={heroLine} className="inline-block">
                 is costing you
               </motion.span>
             </span>
-            <span className="block overflow-hidden">
+            <span className="block overflow-hidden pb-[0.18em] -mb-[0.06em]">
               <motion.span variants={heroLine} className="inline-block text-grad-pink">
                 revenue.
               </motion.span>
